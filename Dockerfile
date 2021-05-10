@@ -16,7 +16,7 @@ RUN npm install
 #COPY . .
 RUN npm install pm2@3 -g
 
-EXPOSE 4444
+EXPOSE 5555
 CMD ["pm2-runtime", "start", "server.js"]
 
 #CMD [ "npm", "start" ]
