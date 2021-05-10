@@ -1,3 +1,3 @@
 docker build -t nodejs .
 
-docker run -d -p 7777:4444 nodejs
+docker run -d -p 5555:4444 nodejs
